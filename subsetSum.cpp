@@ -39,6 +39,6 @@ int main() {
 
     cin>>target;
     subset(0,0,0);
-    if (found) cout<<"Subset sum found"<<endl;
+    if (found) cout<<"Subset sum found: "<<target<<endl;
     else cout<<"Subset sum not found"<<endl;
 }
